@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class AlmosaferTestCAse extends Parameters {
+public class AlmosaferTestCase extends Parameters {
 	@BeforeTest
 	public void mySetup() {
 		
