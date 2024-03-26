@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="JavaClassPackage.JavaClass">
+      <class name="Almosafer.AlmosaferTestCAse">
         <methods>
-          <include name="myBeforeTest"/>
-          <include name="test"/>
+          <include name="mySetup"/>
+          <include name="languagesTest"/>
         </methods>
-      </class> <!-- JavaClassPackage.JavaClass -->
+      </class> <!-- Almosafer.AlmosaferTestCAse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
